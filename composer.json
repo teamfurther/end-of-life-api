@@ -1,0 +1,22 @@
+{
+    "name": "teamfurther/end-of-life-api",
+    "description": "End of life api.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Csongor Ur",
+            "email": "csongor.ur@c4studio.ro"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "pecee/simple-router": "^4.3",
+        "ext-json": "*",
+        "nesbot/carbon": "^2.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
